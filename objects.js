@@ -1,4 +1,4 @@
-var playlist = {creed: ''}
+var playlist = {creed: 'Higher'}
 
 function updatePlaylist(playlist, artistName, songTitle){
   return Object.assign({}, playlist, {[artistName]: songTitle})
